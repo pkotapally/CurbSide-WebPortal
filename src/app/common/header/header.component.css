@@ -1,0 +1,65 @@
+#header-nav{
+    position: relative;
+    z-index: 2;
+    border-top:4px solid #EA7931;
+    background-color: #ffffff;
+}
+
+.header-nav {
+    min-height: 50px;
+    margin: 0;
+
+}
+.logo {
+    background: url('/assets/images/dignity-health.png') no-repeat 0 6px;
+    background-size: 190px auto;
+    display: block;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 190px;
+    height: 100%;
+    min-height: 60px;
+}
+
+.header-nav > li a{
+    display: block;
+    padding-top:5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.header-nav.right-navigation > li {
+    position: relative;
+    min-height: 62px;
+    vertical-align: middle;
+    border-left: 1px solid #CBCBCB;
+}
+
+.header-nav.right-navigation > li a {
+    color: #656565;
+    text-align: center;  
+    padding-top: 10px;
+    min-width: 60px;
+    line-height: 18px;
+    padding-bottom: 2px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.header-nav.right-navigation > li a i {
+    color: #EA7931;
+}
+
+.header-nav.right-navigation .icon-size-18 {
+    font-size: 18px;
+}
+
+
+
+@media (max-width:480px) {
+
+    .header-nav.right-navigation > li a {
+        min-width: 20px;
+    }
+
+}

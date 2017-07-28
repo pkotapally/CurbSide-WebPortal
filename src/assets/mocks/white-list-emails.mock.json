@@ -1,0 +1,92 @@
+[
+  {
+    "WhitelistEmailId": 1,
+    "FirstName": "Prasad",
+    "LastName": "Rasapally",
+    "Email": "user1@dignity.com",
+    "CreatedBy": "Dignity User ",
+    "CreatedOn": "2017-07-24",
+    "DeactivatedDate": "2017-07-24"
+  },
+  {
+    "WhitelistEmailId": 2,
+    "FirstName": "Praveen",
+    "LastName": "Kumar",
+    "Email": " user2@dignity.com ",
+    "CreatedBy": "Dignity User",
+    "CreatedOn": "2017-07-24",
+    "DeactivatedDate": "2017-07-24"
+  },
+  {
+    "WhitelistEmailId": 3,
+    "FirstName": "Prasad",
+    "LastName": "Rasapally",
+    "Email": "user3@dignity.com",
+    "CreatedBy": "Dignity User ",
+    "CreatedOn": "2017-07-24",
+    "DeactivatedDate": "2017-07-24"
+  },
+  {
+    "WhitelistEmailId": 4,
+    "FirstName": "Praveen",
+    "LastName": "Kumar",
+    "Email": " user4@dignity.com ",
+    "CreatedBy": "Dignity User",
+    "CreatedOn": "2017-07-24",
+    "DeactivatedDate": "2017-07-24"
+  },
+  {
+    "WhitelistEmailId": 5,
+    "FirstName": "Prasad",
+    "LastName": "Rasapally",
+    "Email": "user5@dignity.com",
+    "CreatedBy": "Dignity User ",
+    "CreatedOn": "2017-07-24",
+    "DeactivatedDate": "2017-07-24"
+  },
+  {
+    "WhitelistEmailId": 6,
+    "FirstName": "Praveen",
+    "LastName": "Kumar",
+    "Email": " user6@dignity.com ",
+    "CreatedBy": "Dignity User",
+    "CreatedOn": "2017-07-24",
+    "DeactivatedDate": "2017-07-24"
+  },
+  {
+    "WhitelistEmailId":7,
+    "FirstName": "Prasad",
+    "LastName": "Rasapally",
+    "Email": "user7@dignity.com",
+    "CreatedBy": "Dignity User ",
+    "CreatedOn": "2017-07-24",
+    "DeactivatedDate": "2017-07-24"
+  },
+  {
+    "WhitelistEmailId": 8,
+    "FirstName": "Praveen",
+    "LastName": "Kumar",
+    "Email": " user8@dignity.com ",
+    "CreatedBy": "Dignity User",
+    "CreatedOn": "2017-07-24",
+    "DeactivatedDate": "2017-07-24"
+  },
+  {
+    "WhitelistEmailId":9,
+    "FirstName": "Prasad",
+    "LastName": "Rasapally",
+    "Email": "user9@dignity.com",
+    "CreatedBy": "Dignity User ",
+    "CreatedOn": "2017-07-24",
+    "DeactivatedDate": "2017-07-24"
+  },
+  {
+    "WhitelistEmailId":10,
+    "FirstName": "Praveen",
+    "LastName": "Kumar",
+    "Email": " user10@dignity.com ",
+    "CreatedBy": "Dignity User",
+    "CreatedOn": "2017-07-24",
+    "DeactivatedDate": "2017-07-24"
+  }
+]

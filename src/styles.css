@@ -1,0 +1,142 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+  margin:0;
+  padding:0;
+}
+
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #656565;
+  line-height: 1;
+  height:100%;
+  width:100%;
+}
+
+.wrapper {
+	/* Layout wrapper */
+    min-height:100%; 
+    position:relative;
+    background-color: #f4f4f4;
+    
+}
+
+img { 
+	/* image Responsiveness */
+    max-width: 100%;
+    height: auto;
+}
+
+/* Basic Anchor links for complete app */
+a {
+   color:#59b7e7;
+   background-color: transparent;
+}
+
+a:hover, a:focus {
+    color: #1f97d5;
+    text-decoration: none;
+    
+}
+
+a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+/* End of Anchor links */
+
+/* heading common margin and padding */
+h1, h2, h3, h4, h5 {
+    margin: 0 0 14px 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 22px;
+}
+h3 {
+    font-size: 20px;
+}
+
+/* For fixed footer */
+.view-container {
+   padding-bottom:60px;
+   overflow: hidden;
+}
+
+#content {
+    position: relative;
+}
+
+.btn-dh {
+     border-color: #2972b1;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #2972b1;
+    color: #ffffff;
+}
+.btn-dh:hover,
+.btn-dh:focus{
+    background-color: #2972b1;
+    border-color: #2972b1;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.btn-dh:active{
+    background-color: #143a5a;
+    border-color: #143a5a;
+}
+
+.white-list-table {
+  background-color: #ffffff;
+}
+.white-list-table thead tr:first-child {
+    background-color: #fff;
+}
+.white-list-table tr:nth-child(odd) {
+    background-color: #f4f4f4;
+}
+
+.text-orange {
+    color: #EA7931;
+}
+
+.edit-icon, 
+.remove-icon, 
+.disable-icon {
+  color: #EA7931;
+  margin-right: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.pagination {
+    margin: 0;
+}
+
+/* media Screen for desktop */
+
+@media screen and (min-width: 1280px) {
+
+  .container {
+      width: 1250px;
+  }
+}
+
+@media screen and (max-width:767px) {
+    .table-responsive {
+        border: 0;
+    }
+    .table-responsive>.table-bordered{
+        border: 1px solid #dddddd;
+    }
+}
+
+/* end of media Screen desktop*/

@@ -1,0 +1,56 @@
+<div class="table-responsive container">
+  <div class="row">
+    <div class="col-xs-6 form-group">
+      <h2 class="text-orange">White List Emails</h2>
+    </div>
+    <div class="col-xs-6 form-group">
+
+      <a (click)="openWhiteListEmailModal()" class="btn btn-primary btn-dh pull-right"><i class="fa fa-plus"></i> Add New Email</a>
+    </div>
+  </div>
+
+  <table class="table table-bordered white-list-table">
+    <thead>
+      <tr>
+        <th class="text-center">Whitelist ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        <th>Created By</th>
+        <th>Created On</th>
+        <th>Deactivated Date</th>
+        <th class="text-center">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let whiteListEmail of whiteListService.whiteListEmails">
+        <td class="text-center">{{whiteListEmail.WhitelistEmailId}}</td>
+        <td>{{whiteListEmail.FirstName}}</td>
+        <td>{{whiteListEmail.LastName}}</td>
+        <td>{{whiteListEmail.Email}}</td>
+        <td>{{whiteListEmail.CreatedBy}}</td>
+        <td>{{whiteListEmail.CreatedOn}}</td>
+        <td>{{whiteListEmail.DeactivatedDate}}</td>
+        <td class="text-center">
+          <span class="edit-icon" title="Edit"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span>
+          <span class="remove-icon" title="Remove" (click)="removeWhiteListEmailWithId(whiteListEmail)">
+                      <i class="fa fa-times" aria-hidden="true"></i>
+                    </span>
+          <span class="disable-icon" title="Disable"><i class="fa fa-ban" aria-hidden="true"></i></span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="container">
+  <ul class="pull-right pagination pagination-sm">
+    <li><a href="#">&laquo;</a></li>
+    <li class="active"><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">&raquo;</a></li>
+  </ul>
+</div>

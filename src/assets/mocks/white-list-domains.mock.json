@@ -1,0 +1,72 @@
+[
+  {
+    "WhitelistDomainId": 1,
+    "DomainName": "Domain Name - 1",
+    "CreatedBy": "Prasad Rasapally",
+    "CreatedOn": "2017-07-24",
+    "DeactivatedDate": "2017-07-24"
+  },
+  {
+    "WhitelistDomainId": 2,
+    "DomainName": "Domain Name - 2",
+    "CreatedBy": "Praveen Kumar",
+    "CreatedOn": "2017-07-24",
+    "DeactivatedDate": "2017-07-24"
+  },
+  {
+    "WhitelistDomainId": 3,
+    "DomainName": "Domain Name - 1",
+    "CreatedBy": "Prasad Rasapally",
+    "CreatedOn": "2017-07-24",
+    "DeactivatedDate": "2017-07-24"
+  },
+  {
+    "WhitelistDomainId": 4,
+    "DomainName": "Domain Name - 2",
+    "CreatedBy": "Praveen Kumar",
+    "CreatedOn": "2017-07-24",
+    "DeactivatedDate": "2017-07-24"
+  },
+  {
+    "WhitelistDomainId": 5,
+    "DomainName": "Domain Name - 1",
+    "CreatedBy": "Prasad Rasapally",
+    "CreatedOn": "2017-07-24",
+    "DeactivatedDate": "2017-07-24"
+  },
+  {
+    "WhitelistDomainId": 6,
+    "DomainName": "Domain Name - 2",
+    "CreatedBy": "Praveen Kumar",
+    "CreatedOn": "2017-07-24",
+    "DeactivatedDate": "2017-07-24"
+  },
+  {
+    "WhitelistDomainId": 7,
+    "DomainName": "Domain Name - 1",
+    "CreatedBy": "Prasad Rasapally",
+    "CreatedOn": "2017-07-24",
+    "DeactivatedDate": "2017-07-24"
+  },
+  {
+    "WhitelistDomainId": 8,
+    "DomainName": "Domain Name - 2",
+    "CreatedBy": "Praveen Kumar",
+    "CreatedOn": "2017-07-24",
+    "DeactivatedDate": "2017-07-24"
+  },
+  {
+    "WhitelistDomainId": 9,
+    "DomainName": "Domain Name - 1",
+    "CreatedBy": "Prasad Rasapally",
+    "CreatedOn": "2017-07-24",
+    "DeactivatedDate": "2017-07-24"
+  },
+  {
+    "WhitelistDomainId": 10,
+    "DomainName": "Domain Name - 2",
+    "CreatedBy": "Praveen Kumar",
+    "CreatedOn": "2017-07-24",
+    "DeactivatedDate": "2017-07-24"
+  }
+]
